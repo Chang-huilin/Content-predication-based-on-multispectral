@@ -1,15 +1,30 @@
-# Chlorophyll-predication-based-on-multispectral
+# Chlorophyll Content Estimation During Tencha Drying Process Using Snapshot Multispectral Imaging Technology Based on Data Fusion
 
-基于数据融合的碾茶干燥过程快照多光谱成像技术叶绿素含量预测/Chlorophyll Content Estimation During Tencha Drying Process Using Snapshot Multispectral Imaging Technology Based on Data Fusion
+This guide details the steps for estimating chlorophyll content during the Tencha drying process using snapshot multispectral imaging technology, incorporating data fusion techniques.
 
-1. 使用HSI软件提取反射率
+## 1. Extract Reflectance Using HSI Software
 
-2. 读取多光谱.hdr文件
+- Use hyperspectral imaging (HSI) software to extract the reflectance data from the captured multispectral images.
+- Ensure that the reflectance data is correctly preprocessed and calibrated for accurate analysis.
 
-3. 裁切感兴趣区域
+## 2. Read Multispectral .hdr File
 
-4. 计算图像灰度纹理特征
+- Read the multispectral image file in `.hdr` format using appropriate libraries (e.g., `spectral` library in Python).
 
-5. 算法预测
+## 3. Crop Region of Interest (ROI)
 
-6. 画图
+- Identify and crop the region of interest (ROI) from the multispectral image to focus on the relevant part for chlorophyll estimation.
+
+## 4. Calculate Image Gray-Level Texture Features
+
+- Compute gray-level texture features (e.g., contrast, correlation, energy, homogeneity) from the ROI for analysis.
+
+## 5. Algorithm Prediction
+
+- Use a suitable algorithm (e.g., regression model, machine learning model) to predict the chlorophyll content based on the extracted features.
+
+## 6. Plotting Results
+
+- Visualize the results to interpret and analyze the predicted chlorophyll content.
+
+By following these steps, you can estimate the chlorophyll content during the Tencha drying process using snapshot multispectral imaging technology and data fusion techniques.
