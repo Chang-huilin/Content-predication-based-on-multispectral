@@ -1,6 +1,6 @@
-# Chlorophyll Content Estimation During Tencha Drying Process Using Snapshot Multispectral Imaging Technology Based on Data Fusion
+#  Content Estimation  Using Snapshot Multispectral Imaging Technology 
 
-This guide details the steps for estimating chlorophyll content during the Tencha drying process using snapshot multispectral imaging technology, incorporating data fusion techniques.
+This guide details the steps for estimating  content using snapshot multispectral imaging technology
 
 ## 1. Extract Reflectance Using HSI Software
 
