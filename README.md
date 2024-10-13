@@ -1,4 +1,4 @@
-#  Content Estimation  Using Snapshot Multispectral Imaging Technology 
+# Content Estimation Using Snapshot Multispectral Imaging Technology
 
 This guide details the steps for estimating  content using snapshot multispectral imaging technology
 
