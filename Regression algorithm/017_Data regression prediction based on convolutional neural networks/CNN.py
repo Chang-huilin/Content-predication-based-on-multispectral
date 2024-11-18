@@ -8,7 +8,7 @@ import scipy.io as sio
 import matplotlib.pyplot as plt
 
 # 导入数据
-file_path = r'/Project/Content-predication-based-on-multispectral/Regression algorithm/35.mat'
+file_path = r"C:\Users\79365\Desktop\图像-叶绿素\叶绿素\matlab数据\35.mat"
 data = sio.loadmat(file_path)
 
 # 提取X和Y
