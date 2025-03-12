@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # 指定文件夹路径和输出路径
-folder_path = r'D:\茶叶干燥过程\茶叶多光谱图像\热风第二批140个样+水分\GLCM'
+folder_path = r"D:\红茶数据2024.0423\多光谱\萎凋过程-多光谱\结果\红外6小时\GLCM"
 output_path = os.path.join(folder_path, 'GLCM.xlsx')
 
 # 列出所有.xlsx文件，并按文件名数字排序

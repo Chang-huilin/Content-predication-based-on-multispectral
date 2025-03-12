@@ -66,7 +66,7 @@ def main(data_folder, output_folder, bands, levels):
                 results = process_folder(folder_path, bands, levels)
                 if results:
                     df = pd.DataFrame(results)
-                    output_file = os.path.join(output_folder, f'{folder_num + 0:03d}.xlsx')
+                    output_file = os.path.join(output_folder, f'{folder_num + 20:03d}.xlsx')# 保存文件名，对应文件名
                     df.to_excel(output_file, index=False)
                     print(f'特征值已保存到 {output_file}')
             except ValueError:
@@ -74,8 +74,8 @@ def main(data_folder, output_folder, bands, levels):
     print('处理完成。')
 
 # 参数设置
-data_folder = r'D:\茶叶干燥过程\茶叶多光谱图像\热风第一批140个样+水分\1鲜叶_processed'  # 输入数据文件夹路径
-output_folder = r'D:\茶叶干燥过程\茶叶多光谱图像\热风第一批140个样+水分\GLCM'  # 输出文件夹路径
+data_folder = r"D:\红茶数据2024.0423\多光谱\萎凋过程-多光谱\红外萎凋6h（21-120）\3h（21-40）\3_processed" # 输入数据文件夹路径
+output_folder = r'D:\红茶数据2024.0423\多光谱\萎凋过程-多光谱\结果\红外6小时\GLCM'  # 输出文件夹路径
 bands = 25  # 波段数
 levels = 16  # 灰度级
 
